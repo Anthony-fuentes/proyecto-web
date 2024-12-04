@@ -1,0 +1,27 @@
+
+    {
+      "usuarios": [
+        {
+          "nombre": "Juan Pérez",
+          "email": "juan@correo.com",
+          "password": "12345",
+          "rol": "estudiante"
+        },
+        {
+          "nombre": "María González",
+          "email": "maria@correo.com",
+          "password": "12345",
+          "rol": "profesor",
+          "materias": ["Matemáticas", "Física"]
+        },
+        {
+          "nombre": "Carlos Díaz",
+          "email": "carlos@correo.com",
+          "password": "12345",
+          "rol": "profesor",
+          "materias": ["Historia", "Geografía"]
+        }
+      ]
+    }
+    
+  

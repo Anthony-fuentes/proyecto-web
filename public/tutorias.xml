@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tutorias>
+  <tutoria>
+    <id>1</id>
+    <materia>Matemáticas</materia>
+    <profesor>Profesor 1</profesor>
+    <fecha>2024-11-20</fecha>
+    <hora>10:00</hora>
+    <estado>Pendiente</estado>
+  </tutoria>
+  <tutoria>
+    <id>2</id>
+    <materia>Física</materia>
+    <profesor>Profesor 2</profesor>
+    <fecha>2024-11-21</fecha>
+    <hora>14:00</hora>
+    <estado>Pendiente</estado>
+  </tutoria>
+</tutorias>

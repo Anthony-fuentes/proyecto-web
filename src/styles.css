@@ -1,0 +1,135 @@
+ /* Estilos generales */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.shutterstock.com/image-illustration/tutor-word-isolated-on-white-260nw-698310355.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  h2 {
+    color: #0ad4db;
+  }
+  
+  /* Estilos de los botones */
+  button {
+    background-color: #0869fc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0a6fe4;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los formularios */
+  form {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el botón de perfil y cierre de sesión */
+  #perfilBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+  }
+  
+  #cerrarSesionBtn {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    display: none;
+  }
+  
+  /* Estilos adicionales */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    color: #0869fc;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .card button {
+    background-color: #0ad4db;
+    margin-top: 10px;
+  }
+  
+  .card button:hover {
+    background-color: #0a6fe4;
+  }
+  
+  .tutoria-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tutoria-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .tutoria-item p {
+    margin: 5px 0;
+  }
+  
+  .tutoria-item button {
+    background-color: #0ad4db;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .tutoria-item button:hover {
+    background-color: #0a6fe4;
+  }
+  
